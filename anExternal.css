@@ -1,0 +1,66 @@
+
+.head {
+    color:thistle;
+    font-style: italic;
+}
+
+h1.head{
+    color:gold;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightslategrey;
+    font-size:large;
+}
+.question { 
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.answer { 
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    color:lightsteelblue;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 450px;
+    height: 300px; 
+    background: url(https://www.saturdayeveningpost.com/wp-content/uploads/satevepost/diner-cartoon-860-860x573.jpg);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    margin: .5rem 0;
+    padding: .5rem;
+    border: 2px dotted gray;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+  }
+
